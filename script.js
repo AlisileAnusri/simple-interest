@@ -13,8 +13,8 @@ function compute()
         <!--var amount=Number(p)+Number(interest);-->
         var year= new Date().getFullYear()+parseInt(years);
         document.getElementById("result").innerHTML=
-        "If you deposit "+p+"\<br\> at an interest rate of "+rate+"<span class='highlight'>"+"%\<br\>You will receive an amount of "+
-        interest+"<span class='highlight'>"+",\<br\> in the year "+year+"<span class='highlight'>"+"\<br\>"
+        "If you deposit "+"<span class='highlight'>"+p+"\<br\> at an interest rate of "+"<span class='highlight'>"+rate+"<span class='highlight'>"+"%"+"\<br\>You will receive an amount of "+"<span class='highlight'>"+
+        interest+",\<br\> in the year "+"<span class='highlight'>"+year+"\<br\>"
 
     }
 
