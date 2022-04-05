@@ -9,10 +9,10 @@ function compute()
     if(p>0){
         var rate= document.getElementById("rate").value;
         var years=document.getElementById("years").value;
-        var interest=(p*rate*years)/100;
-        interest.toFixed(4)
-        var amount=Number(p)+Number(interest);
-        amount.toFixed(4)
+        var inter=(p*rate*years)/100;
+        interest=inter.toFixed(4)
+        var amt=Number(p)+Number(interest);
+        amount=amt.toFixed(4);
         var year= new Date().getFullYear()+parseInt(years);
         document.getElementById("result").innerHTML=
         "If you deposit "+"<span class='highlight'>"+p+"</span>"+"\<br\> at an interest rate of "+"<span class='highlight'>"+rate+"%"+"</span>"+"\<br\>You will receive an amount of "+"<span class='highlight'>"+
