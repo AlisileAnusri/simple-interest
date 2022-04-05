@@ -11,7 +11,7 @@ function compute()
         var years=document.getElementById("years").value;
         var inter=(p*rate*years)/100;
         interest=inter.toFixed(4)
-        var amt=Number(p)+Number(interest);
+        var amt=Number(p)+Number(inter);
         amount=amt.toFixed(4);
         var year= new Date().getFullYear()+parseInt(years);
         document.getElementById("result").innerHTML=
